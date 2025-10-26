@@ -1,4 +1,4 @@
-## Random Quotes
+# Random Quotes
 
 A simple React application that displays random quotes. Click the NEW QUOTE button to generate a new quote instantly. Built with React, TypeScript, and TailwindCSS.
 
@@ -22,21 +22,21 @@ TailwindCSS – Utility-first CSS framework
 
 ## Installation
 
-Clone the repository:
+-- Clone the repository:
 
 git clone https://github.com/your-username/Random-Quotes.git
 
 
-Navigate to the project folder:
+-- Navigate to the project folder:
 
 cd Random-Quotes
 
 
-Install dependencies:
+-- Install dependencies:
 
 npm install
 
+ 
+-- Start the development server:
 
-Start the development server:
-
-npm start
+npm run dev
