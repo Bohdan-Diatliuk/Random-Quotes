@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { Quote } from "./types/Quote";
 import getRandomQuote from "./data/quotesRandom";
+import Header from "./components/Header";
 
 function App() {
 const [quote, setQuote] = useState<Quote>(getRandomQuote());
@@ -9,7 +10,12 @@ const handleNewQuote = () => {
   setQuote(getRandomQuote());
 }
   return (
+    <>
+    
+    <Header />
+
     <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-700 text-white">
+    
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-serif text-5xl">
           Random Quotes
@@ -34,6 +40,7 @@ const handleNewQuote = () => {
           NEW QUOTE
       </button>
     </div>
+    </>
   )
 }
 
