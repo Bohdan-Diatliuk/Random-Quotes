@@ -20,22 +20,22 @@ Stylish UI with hover and active button effects
 
 ## Installation
 
--- Clone the repository:
+Clone the repository:
 ```
 git clone https://github.com/Bohdan-Diatliuk/Random-Quotes.git
 ```
 
--- Navigate to the project folder:
+Navigate to the project folder:
 ```
 cd Random-Quotes
 ```
 
--- Install dependencies:
+Install dependencies:
 ```
 npm install
 ```
  
--- Start the development server:
+Start the development server:
 ```
 npm run dev
 ```
